@@ -1,0 +1,8 @@
+.bg {
+    background: linear-gradient(to right, #0052d4, #4364f7, #6fb1fc);
+    height: 100vh;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: Arial;
+}
