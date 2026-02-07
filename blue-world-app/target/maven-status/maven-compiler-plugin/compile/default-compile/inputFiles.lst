@@ -1,0 +1,6 @@
+/home/siva-devops/Documents/projects/elasticbeanstalk/blue-world-app/src/main/java/com/blueworld/BlueWorldApplication.java
+/home/siva-devops/Documents/projects/elasticbeanstalk/blue-world-app/src/main/java/com/blueworld/config/DynamoDBConfig.java
+/home/siva-devops/Documents/projects/elasticbeanstalk/blue-world-app/src/main/java/com/blueworld/controller/AuthController.java
+/home/siva-devops/Documents/projects/elasticbeanstalk/blue-world-app/src/main/java/com/blueworld/model/User.java
+/home/siva-devops/Documents/projects/elasticbeanstalk/blue-world-app/src/main/java/com/blueworld/repository/UserRepository.java
+/home/siva-devops/Documents/projects/elasticbeanstalk/blue-world-app/src/main/java/com/blueworld/service/UserService.java
