@@ -7,12 +7,13 @@ pipeline{
                 checkout scmGit(branches: [[name: '*/beanstalk-project']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/SivaSuribabu/elasticbeanstalk.git']])
                 echo "checkout successful"
                 }
-            }
             post{
                 success{
                     input message: "checkout stage successful, do you want to proceed to build stage?", ok: "Yes, let's proceed"
                 }
             }
+        }
+            
         stage("build-stage"){
             when {
                 expression { return false }
