@@ -6,8 +6,7 @@ pipeline{
             steps{
                 echo "=====checkout stage====="
                 checkout scmGit(branches: [[name: '*/beanstalk-project']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/SivaSuribabu/elasticbeanstalk.git']])
-                if (env.BRANCH_NAME == "beanstalk-project"){
-                    echo "checkout successful"
+                echo "checkout successful"
                 }
             }
             
