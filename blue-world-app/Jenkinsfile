@@ -10,7 +10,7 @@ pipeline{
             }
             post{
                 success{
-                    input message: "checkout stage successful, do you want to proceed to build stage?", ok: "Yes, let's proceed",
+                    input message: "checkout stage successful, do you want to proceed to build stage?", ok: "Yes, let's proceed"
                 }
             }
         stage("build-stage"){
